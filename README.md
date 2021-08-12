@@ -1,11 +1,11 @@
 <h1 align="center">✨ Interactive Machine ⚙️ Learning Dashboard 🖥️</h1>
 
 <p align="center">
-    <img src="images/ml.gif" >
+    <img src="images/ml.gif" width="600">
 </p>
 
 <p align="center">
-    This project was created to make it easier for us to perform simulations on Machine Learning. This project also aims to make the data exploration experience more interactive and fun. Without needing a lot of code, we can do it right away with a click and select..
+    This project was created to make it easier for us to perform simulations on Machine Learning. <br> This project also aims to make the data exploration experience more interactive and fun. Without needing a lot of code, we can do it right away with a click and select.
 </p>
 
 
