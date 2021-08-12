@@ -13,12 +13,18 @@ def get_sidebar(dataset_name):
     
     if best_button:
         classifier_name = get_best_classifier(X, y)
+        
+        if classifier_name == 'None':
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset'}</h1>", 
+                        unsafe_allow_html=True)
+
+        else:
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset' + ' using ' + classifier_name}</h1>", 
+                        unsafe_allow_html=True)
     
-        st.markdown(f"<h1 style='text-align: center;'>\
-                        {dataset_name + ' Dataset' + ' using ' + classifier_name}</h1>", 
-                    unsafe_allow_html=True)
-    
-        get_best_result(classifier_name, X, y)
+            get_best_result(classifier_name, X, y)
     
     else:
         classifier_name = st.sidebar.selectbox(
@@ -27,6 +33,9 @@ def get_sidebar(dataset_name):
             index=0)
         
         if classifier_name == 'None':
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset'}</h1>", 
+                        unsafe_allow_html=True)
             get_plot_data(X, y, st, (5, 3))
             
         elif classifier_name != 'None':
@@ -43,12 +52,18 @@ def get_sidebar_xy(dataset_name, X, y):
     
     if best_button:
         classifier_name = get_best_classifier(X, y)
-
-        st.markdown(f"<h1 style='text-align: center;'>\
-                        {dataset_name + ' Dataset' + ' using ' + classifier_name}</h1>", 
-                    unsafe_allow_html=True)
         
-        get_best_result(classifier_name, X, y)
+        if classifier_name == 'None':
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset'}</h1>", 
+                        unsafe_allow_html=True)
+            
+        else:
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset' + ' using ' + classifier_name}</h1>", 
+                        unsafe_allow_html=True)
+            
+            get_best_result(classifier_name, X, y)
     
     else:
         classifier_name = st.sidebar.selectbox(
@@ -57,6 +72,9 @@ def get_sidebar_xy(dataset_name, X, y):
             index=0)
         
         if classifier_name == 'None':
+            st.markdown(f"<h1 style='text-align: center;'>\
+                            {dataset_name + ' Dataset'}</h1>", 
+                        unsafe_allow_html=True)
             get_plot_data(X, y, st, (5, 3))
 
         elif classifier_name != 'None':
