@@ -1,6 +1,3 @@
-# Interactive-Machine-Learning-Dashboard
-This is a dashboard for simulating various machine learning methods using various data interactively
-
 <h1 align="center">✨ Interactive Machine ⚙️ Learning Dashboard 🖥️</h1>
 
 <p align="center">
