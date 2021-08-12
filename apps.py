@@ -6,7 +6,7 @@ import streamlit as st
 
 def main():
     
-    st.set_page_config(page_title='Interactive ML Dashboard', page_icon = 'ml.ico')
+    st.set_page_config(page_title='Interactive ML Dashboard', page_icon = 'images/ml.ico')
     
     ########### Sidebar ###########
     
