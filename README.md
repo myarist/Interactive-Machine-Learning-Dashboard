@@ -1,4 +1,4 @@
-<h1 align="center">✨ Interactive Machine ⚙️ Learning Dashboard 🖥️</h1>
+<h1 align="center">✨ Interactive ⚙️ Machine Learning 📚 Dashboard 🖥️</h1>
 
 <p align="center">
     <img src="images/ml.gif" width="600">
@@ -51,7 +51,7 @@ To run the project locally, you can download this repo and type
 streamlit run apps.py
 ```
 
-To view the project as a deployed online web app hosted by Heroku, you can check out with [Streamlit](https://share.streamlit.io/myarist/interactive-machine-learning-dashboard/main/apps.py) or [Heroku](https://interactive-ml-dashboard.herokuapp.com/)
+To view the project as a deployed online web app, you can check out with [Streamlit](https://share.streamlit.io/myarist/interactive-machine-learning-dashboard/main/apps.py) or [Heroku](https://interactive-ml-dashboard.herokuapp.com/)
 
 ![heroku gif](images/dashboard.gif)
 
